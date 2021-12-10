@@ -3,16 +3,16 @@ import Header from "../Header";
 import Footer from "../Footer";
 import Product from "../Product";
 
-import { Container, Caixa } from './styles';
+import { Container, Box } from './styles';
 
 const Layout: React.FC = () => {
     return (
         <Container>
             <Header />
 
-           <Caixa>
+           <Box>
            <Product /> 
-           </Caixa> 
+           </Box> 
 
            <Footer />   
         </Container>
